@@ -20,7 +20,7 @@ BuildRequires:	perl(Data::Dumper)
 BuildRequires:	perl-HTML-Tree >= 3.01
 BuildRequires:	perl(HTML::Element) >= 3.01
 %endif
-BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
