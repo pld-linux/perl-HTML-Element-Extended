@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Element-Extended
+%define		pdir	HTML
+%define		pnam	Element-Extended
 Summary:	Package of several enhanced HTML::Element* classes
 Summary(pl):	Pakiet z kilkoma rozszerzonymi klasami HTML::Element*
 Name:		perl-HTML-Element-Extended
