@@ -8,13 +8,13 @@
 Summary:	Package of several enhanced HTML::Element* classes
 Summary(pl):	Pakiet z kilkoma rozszerzonymi klasami HTML::Element*
 Name:		perl-HTML-Element-Extended
-Version:	1.13
+Version:	1.17
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	11f6dd4f2cbe041b4ca901574d6c7c86
+# Source0-md5:	3d4db4f619178111770e3046fc88412f
 %if %{with tests}
 BuildRequires:	perl(Data::Dumper)
 BuildRequires:	perl-HTML-Tree >= 3.01
