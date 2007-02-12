@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Element-Extended
 Summary:	Package of several enhanced HTML::Element* classes
-Summary(pl):	Pakiet z kilkoma rozszerzonymi klasami HTML::Element*
+Summary(pl.UTF-8):   Pakiet z kilkoma rozszerzonymi klasami HTML::Element*
 Name:		perl-HTML-Element-Extended
 Version:	1.17
 Release:	1
@@ -37,17 +37,17 @@ The resulting functionality enables: tables, element globs, element
 coordinates, content replacement, content wrapping, element cloning,
 raw HTML string adoption.
 
-%description -l pl
+%description -l pl.UTF-8
 HTML-Element-Extended to pakiet z kilkoma rozszerzonymi klasami
-HTML::Element, z których wiêkszo¶æ powsta³a podczas próby
+HTML::Element, z ktÃ³rych wiÄ™kszoÅ›Ä‡ powstaÅ‚a podczas prÃ³by
 zaimplementowania klas opartych na HTML::Element.
 
-Modu³y sk³adowe to: HTML::ElementTable, HTML::ElementSuper,
+ModuÅ‚y skÅ‚adowe to: HTML::ElementTable, HTML::ElementSuper,
 HTML::ElementGlob, HTML::ElementRaw.
 
-Wynikowa funkcjonalno¶æ obejmuje: tabele, maski elementów, wspó³rzêdne
-elementów, zmianê zawarto¶ci, zawijanie zawarto¶ci, klonowanie
-elementów, adopcjê surowych ³añcuchów HTML.
+Wynikowa funkcjonalnoÅ›Ä‡ obejmuje: tabele, maski elementÃ³w, wspÃ³Å‚rzÄ™dne
+elementÃ³w, zmianÄ™ zawartoÅ›ci, zawijanie zawartoÅ›ci, klonowanie
+elementÃ³w, adopcjÄ™ surowych Å‚aÅ„cuchÃ³w HTML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
