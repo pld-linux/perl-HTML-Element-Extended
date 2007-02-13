@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Element-Extended
 Summary:	Package of several enhanced HTML::Element* classes
-Summary(pl.UTF-8):   Pakiet z kilkoma rozszerzonymi klasami HTML::Element*
+Summary(pl.UTF-8):	Pakiet z kilkoma rozszerzonymi klasami HTML::Element*
 Name:		perl-HTML-Element-Extended
 Version:	1.17
 Release:	1
