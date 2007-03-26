@@ -9,7 +9,7 @@ Summary:	Package of several enhanced HTML::Element* classes
 Summary(pl.UTF-8):	Pakiet z kilkoma rozszerzonymi klasami HTML::Element*
 Name:		perl-HTML-Element-Extended
 Version:	1.17
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
