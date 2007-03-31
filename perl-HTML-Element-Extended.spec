@@ -13,8 +13,9 @@ Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3d4db4f619178111770e3046fc88412f
+URL:		http://search.cpan.org/dist/HTML-Element-Extended/
 %if %{with tests}
 BuildRequires:	perl(Data::Dumper)
 BuildRequires:	perl-HTML-Tree >= 3.01
